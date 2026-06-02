@@ -216,19 +216,19 @@ a {
 }
 
 .hero h1 {
-  max-width: 10.5em;
+  max-width: 9.6em;
   margin: 0;
-  font-size: clamp(3.2rem, 8vw, 7.3rem);
-  line-height: 0.98;
+  font-size: clamp(3.1rem, 5.4vw, 5.55rem);
+  line-height: 1.04;
   letter-spacing: 0;
   overflow-wrap: anywhere;
 }
 
 .hero-lead {
-  width: min(650px, 100%);
-  margin: 26px 0 0;
+  width: min(610px, 100%);
+  margin: 24px 0 0;
   color: #334237;
-  font-size: clamp(1rem, 2vw, 1.24rem);
+  font-size: clamp(1rem, 1.35vw, 1.12rem);
   font-weight: 500;
   overflow-wrap: anywhere;
 }
