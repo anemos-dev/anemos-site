@@ -640,15 +640,15 @@ a {
 
   .hero h1 {
     max-width: 100%;
-    font-size: clamp(2.24rem, 10vw, 3.1rem);
+    font-size: clamp(2.12rem, 9.4vw, 2.92rem);
     line-height: 1.04;
     word-break: break-all;
   }
 
   .hero-lead {
-    width: calc(100vw - 40px);
-    max-width: calc(100vw - 40px);
-    font-size: 0.98rem;
+    width: min(330px, calc(100vw - 40px));
+    max-width: min(330px, calc(100vw - 40px));
+    font-size: 0.94rem;
     word-break: break-all;
   }
 
